@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		4B0000000000000000000021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000001 /* AppDelegate.swift */; };
 		4B0000000000000000000022 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000002 /* ContentView.swift */; };
+		4B0000000000000000000024 /* ConnectivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000004 /* ConnectivityHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B0000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B0000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B0000000000000000000004 /* ConnectivityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B0000000000000000000010 /* PresetIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresetIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -32,6 +34,7 @@
 			children = (
 				4B0000000000000000000001 /* AppDelegate.swift */,
 				4B0000000000000000000002 /* ContentView.swift */,
+				4B0000000000000000000004 /* ConnectivityHelper.swift */,
 				4B0000000000000000000003 /* Info.plist */,
 			);
 			path = PresetIOS;
@@ -103,6 +106,7 @@
 			files = (
 				4B0000000000000000000021 /* AppDelegate.swift in Sources */,
 				4B0000000000000000000022 /* ContentView.swift in Sources */,
+				4B0000000000000000000024 /* ConnectivityHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
