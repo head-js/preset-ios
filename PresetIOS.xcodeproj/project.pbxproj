@@ -12,6 +12,7 @@
 		4B0000000000000000000024 /* ConnectivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000004 /* ConnectivityHelper.swift */; };
 		4B0000000000000000000025 /* DeviceInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000005 /* DeviceInfoHelper.swift */; };
 		4B0000000000000000000026 /* PackageInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000006 /* PackageInfoHelper.swift */; };
+		4B0000000000000000000027 /* WebViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000007 /* WebViewHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4B0000000000000000000004 /* ConnectivityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000005 /* DeviceInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000006 /* PackageInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageInfoHelper.swift; sourceTree = "<group>"; };
+		4B0000000000000000000007 /* WebViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B0000000000000000000010 /* PresetIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresetIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -41,6 +43,7 @@
 				4B0000000000000000000004 /* ConnectivityHelper.swift */,
 				4B0000000000000000000005 /* DeviceInfoHelper.swift */,
 				4B0000000000000000000006 /* PackageInfoHelper.swift */,
+				4B0000000000000000000007 /* WebViewHelper.swift */,
 				4B0000000000000000000003 /* Info.plist */,
 			);
 			path = PresetIOS;
@@ -115,6 +118,7 @@
 				4B0000000000000000000024 /* ConnectivityHelper.swift in Sources */,
 				4B0000000000000000000025 /* DeviceInfoHelper.swift in Sources */,
 				4B0000000000000000000026 /* PackageInfoHelper.swift in Sources */,
+				4B0000000000000000000027 /* WebViewHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
