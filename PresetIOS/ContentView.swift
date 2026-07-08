@@ -13,6 +13,9 @@ struct ContentView: View {
         appName: "unknown", bundleId: "unknown", versionName: "unknown", versionCode: "unknown"
     )
 
+    @State private var httpLoading: Bool = false
+    @State private var httpResult: String = "—"
+
     var body: some View {
         VStack(spacing: 0) {
             infoList
@@ -55,6 +58,15 @@ struct ContentView: View {
                 row("IDFA", deviceInfo.idfa)
                 row("IDFV", deviceInfo.idfv)
             }
+
+            Section(header: Text("HTTP")) {
+                Button(action: sendHttpPost) {
+                    Text(httpLoading ? "Sending..." : "Send POST")
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .disabled(httpLoading)
+                row("Result", httpResult)
+            }
         }
         .listStyle(GroupedListStyle())
     }
@@ -82,6 +94,20 @@ struct ContentView: View {
 
     private func updateAppPackageInfo() {
         appPackageInfo = packageInfoHelper.helper.getCurrentAppPackageInfo()
+    }
+
+    private func sendHttpPost() {
+        guard !httpLoading else { return }
+        httpLoading = true
+        httpResult = "sending..."
+        APIClient.shared.postTest(body: ["foo": "bar", "platform": "ios"]) { result in            httpLoading = false
+            switch result {
+            case .success(let response):
+                httpResult = response.url ?? "OK"
+            case .failure(let error):
+                httpResult = "ERR: \(error.localizedDescription)"
+            }
+        }
     }
 }
 
