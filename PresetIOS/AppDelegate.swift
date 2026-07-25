@@ -1,5 +1,4 @@
 import UIKit
-import SwiftUI
 
 /// 构建与验证关键指令
 ///
@@ -20,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = UIHostingController(rootView: ContentView())
+        window?.rootViewController = RootShellController()
         window?.makeKeyAndVisible()
         return true
     }

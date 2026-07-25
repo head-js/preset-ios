@@ -8,18 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		4B0000000000000000000021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000001 /* AppDelegate.swift */; };
-		4B0000000000000000000022 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000002 /* ContentView.swift */; };
 		4B0000000000000000000024 /* ConnectivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000004 /* ConnectivityHelper.swift */; };
 		4B0000000000000000000025 /* DeviceInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000005 /* DeviceInfoHelper.swift */; };
 		4B0000000000000000000026 /* PackageInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000006 /* PackageInfoHelper.swift */; };
 		4B0000000000000000000027 /* WebViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000007 /* WebViewHelper.swift */; };
 		4B0000000000000000000028 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000008 /* HttpClient.swift */; };
 		4B0000000000000000000029 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000009 /* ApiClient.swift */; };
+		4B00000000000000000000A1 /* RootShellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B1 /* RootShellController.swift */; };
+		4B00000000000000000000A2 /* MainStageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B2 /* MainStageController.swift */; };
+		4B00000000000000000000A3 /* MainStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B3 /* MainStage.swift */; };
+		4B00000000000000000000A4 /* PlanStageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B4 /* PlanStageController.swift */; };
+		4B00000000000000000000A5 /* PlanStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B5 /* PlanStage.swift */; };
+		4B00000000000000000000A6 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B6 /* HomePage.swift */; };
+		4B00000000000000000000A7 /* WebViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B7 /* WebViewPage.swift */; };
+		4B00000000000000000000A8 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B8 /* ProfilePage.swift */; };
+		4B00000000000000000000A9 /* PlanPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B9 /* PlanPage.swift */; };
+		4B00000000000000000000AA /* PhasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BA /* PhasePage.swift */; };
+		4B00000000000000000000AB /* TaskPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BB /* TaskPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B0000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B0000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B0000000000000000000004 /* ConnectivityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000005 /* DeviceInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000006 /* PackageInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageInfoHelper.swift; sourceTree = "<group>"; };
@@ -28,6 +37,17 @@
 		4B0000000000000000000009 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		4B0000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B0000000000000000000010 /* PresetIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresetIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B00000000000000000000B1 /* RootShellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootShellController.swift; sourceTree = "<group>"; };
+		4B00000000000000000000B2 /* MainStageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStageController.swift; sourceTree = "<group>"; };
+		4B00000000000000000000B3 /* MainStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStage.swift; sourceTree = "<group>"; };
+		4B00000000000000000000B4 /* PlanStageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanStageController.swift; sourceTree = "<group>"; };
+		4B00000000000000000000B5 /* PlanStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanStage.swift; sourceTree = "<group>"; };
+		4B00000000000000000000B6 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		4B00000000000000000000B7 /* WebViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPage.swift; sourceTree = "<group>"; };
+		4B00000000000000000000B8 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		4B00000000000000000000B9 /* PlanPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanPage.swift; sourceTree = "<group>"; };
+		4B00000000000000000000BA /* PhasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhasePage.swift; sourceTree = "<group>"; };
+		4B00000000000000000000BB /* TaskPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -43,7 +63,17 @@
 			isa = PBXGroup;
 			children = (
 				4B0000000000000000000001 /* AppDelegate.swift */,
-				4B0000000000000000000002 /* ContentView.swift */,
+				4B00000000000000000000B1 /* RootShellController.swift */,
+				4B00000000000000000000B2 /* MainStageController.swift */,
+				4B00000000000000000000B3 /* MainStage.swift */,
+				4B00000000000000000000B4 /* PlanStageController.swift */,
+				4B00000000000000000000B5 /* PlanStage.swift */,
+				4B00000000000000000000B6 /* HomePage.swift */,
+				4B00000000000000000000B7 /* WebViewPage.swift */,
+				4B00000000000000000000B8 /* ProfilePage.swift */,
+				4B00000000000000000000B9 /* PlanPage.swift */,
+				4B00000000000000000000BA /* PhasePage.swift */,
+				4B00000000000000000000BB /* TaskPage.swift */,
 				4B0000000000000000000004 /* ConnectivityHelper.swift */,
 				4B0000000000000000000005 /* DeviceInfoHelper.swift */,
 				4B0000000000000000000006 /* PackageInfoHelper.swift */,
@@ -120,7 +150,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B0000000000000000000021 /* AppDelegate.swift in Sources */,
-				4B0000000000000000000022 /* ContentView.swift in Sources */,
+				4B00000000000000000000A1 /* RootShellController.swift in Sources */,
+				4B00000000000000000000A2 /* MainStageController.swift in Sources */,
+				4B00000000000000000000A3 /* MainStage.swift in Sources */,
+				4B00000000000000000000A4 /* PlanStageController.swift in Sources */,
+				4B00000000000000000000A5 /* PlanStage.swift in Sources */,
+				4B00000000000000000000A6 /* HomePage.swift in Sources */,
+				4B00000000000000000000A7 /* WebViewPage.swift in Sources */,
+				4B00000000000000000000A8 /* ProfilePage.swift in Sources */,
+				4B00000000000000000000A9 /* PlanPage.swift in Sources */,
+				4B00000000000000000000AA /* PhasePage.swift in Sources */,
+				4B00000000000000000000AB /* TaskPage.swift in Sources */,
 				4B0000000000000000000024 /* ConnectivityHelper.swift in Sources */,
 				4B0000000000000000000025 /* DeviceInfoHelper.swift in Sources */,
 				4B0000000000000000000026 /* PackageInfoHelper.swift in Sources */,
