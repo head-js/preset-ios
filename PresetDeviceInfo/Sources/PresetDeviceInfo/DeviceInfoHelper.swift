@@ -3,26 +3,33 @@ import UIKit
 import AdSupport
 import AppTrackingTransparency
 
-struct DeviceInfo {
-    let idfa: String
-    let idfv: String
+public struct DeviceInfo {
+    public let idfa: String
+    public let idfv: String
+
+    public init(idfa: String, idfv: String) {
+        self.idfa = idfa
+        self.idfv = idfv
+    }
 }
 
-class DeviceInfoHelper {
+public class DeviceInfoHelper {
 
-    private(set) var currentInfo: DeviceInfo = DeviceInfo(
+    public private(set) var currentInfo: DeviceInfo = DeviceInfo(
         idfa: "unknown",
         idfv: "unknown"
     )
 
-    func getCurrentDeviceInfo() -> DeviceInfo {
+    public init() {}
+
+    public func getCurrentDeviceInfo() -> DeviceInfo {
         let idfa = ASIdentifierManager.shared().advertisingIdentifier.uuidString
         let idfv = UIDevice.current.identifierForVendor?.uuidString ?? "unknown"
         currentInfo = DeviceInfo(idfa: idfa, idfv: idfv)
         return currentInfo
     }
 
-    func getDisplayString() -> String {
+    public func getDisplayString() -> String {
         let info = getCurrentDeviceInfo()
         return "IDFA: \(info.idfa) | IDFV: \(info.idfv)"
     }

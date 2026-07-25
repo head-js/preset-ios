@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B0000000000000000000021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000001 /* AppDelegate.swift */; };
 		4B0000000000000000000024 /* ConnectivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000004 /* ConnectivityHelper.swift */; };
-		4B0000000000000000000025 /* DeviceInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000005 /* DeviceInfoHelper.swift */; };
+		4B00000000000000000000C3 /* PresetDeviceInfo in Frameworks */ = {isa = PBXBuildFile; productRef = 4B00000000000000000000C2 /* PresetDeviceInfo */; };
 		4B0000000000000000000026 /* PackageInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000006 /* PackageInfoHelper.swift */; };
 		4B0000000000000000000027 /* WebViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000007 /* WebViewHelper.swift */; };
 		4B0000000000000000000028 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000008 /* HttpClient.swift */; };
@@ -30,7 +30,6 @@
 /* Begin PBXFileReference section */
 		4B0000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B0000000000000000000004 /* ConnectivityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityHelper.swift; sourceTree = "<group>"; };
-		4B0000000000000000000005 /* DeviceInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000006 /* PackageInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageInfoHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000007 /* WebViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000008 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
@@ -75,7 +74,6 @@
 				4B00000000000000000000BA /* PhasePage.swift */,
 				4B00000000000000000000BB /* TaskPage.swift */,
 				4B0000000000000000000004 /* ConnectivityHelper.swift */,
-				4B0000000000000000000005 /* DeviceInfoHelper.swift */,
 				4B0000000000000000000006 /* PackageInfoHelper.swift */,
 				4B0000000000000000000007 /* WebViewHelper.swift */,
 				4B0000000000000000000008 /* HttpClient.swift */,
@@ -101,12 +99,16 @@
 			buildConfigurationList = 4B0000000000000000000081 /* Build configuration list for PBXNativeTarget "PresetIOS" */;
 			buildPhases = (
 				4B0000000000000000000090 /* Sources */,
+				4B0000000000000000000091 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PresetIOS;
+			packageProductDependencies = (
+				4B00000000000000000000C2 /* PresetDeviceInfo */,
+			);
 			productName = PresetIOS;
 			productReference = 4B0000000000000000000010 /* PresetIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -138,11 +140,25 @@
 			productRefGroup = 4B0000000000000000000032 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
+			packages = (
+				4B00000000000000000000C1 /* XCLocalSwiftPackageReference "PresetDeviceInfo" */,
+			);
 			targets = (
 				4B0000000000000000000040 /* PresetIOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B0000000000000000000091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B00000000000000000000C3 /* PresetDeviceInfo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B0000000000000000000090 /* Sources */ = {
@@ -162,7 +178,6 @@
 				4B00000000000000000000AA /* PhasePage.swift in Sources */,
 				4B00000000000000000000AB /* TaskPage.swift in Sources */,
 				4B0000000000000000000024 /* ConnectivityHelper.swift in Sources */,
-				4B0000000000000000000025 /* DeviceInfoHelper.swift in Sources */,
 				4B0000000000000000000026 /* PackageInfoHelper.swift in Sources */,
 				4B0000000000000000000027 /* WebViewHelper.swift in Sources */,
 				4B0000000000000000000028 /* HttpClient.swift in Sources */,
@@ -192,7 +207,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -215,7 +230,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -238,7 +253,7 @@
 				INFOPLIST_FILE = PresetIOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -266,7 +281,7 @@
 				INFOPLIST_FILE = PresetIOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +318,14 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		4B00000000000000000000C1 /* XCLocalSwiftPackageReference "PresetDeviceInfo" */ = {isa = XCLocalSwiftPackageReference; relativePath = PresetDeviceInfo; };
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B00000000000000000000C2 /* PresetDeviceInfo */ = {isa = XCSwiftPackageProductDependency; package = 4B00000000000000000000C1 /* XCLocalSwiftPackageReference "PresetDeviceInfo" */; productName = PresetDeviceInfo; };
+/* End XCSwiftPackageProductDependency section */
 
 	};
 	rootObject = 4B0000000000000000000050 /* Project object */;

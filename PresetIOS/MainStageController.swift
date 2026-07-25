@@ -1,5 +1,6 @@
 import UIKit
 import SwiftUI
+import PresetDeviceInfo
 
 final class ConnectivityHelperBox {
     let helper = ConnectivityHelper()

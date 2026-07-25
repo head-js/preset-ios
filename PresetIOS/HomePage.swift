@@ -1,4 +1,5 @@
 import SwiftUI
+import PresetDeviceInfo
 
 struct HomePage: View {
     let dependencies: MainStageDependencies
