@@ -24,6 +24,9 @@
 		4B00000000000000000000A9 /* PlanPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B9 /* PlanPage.swift */; };
 		4B00000000000000000000AA /* PhasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BA /* PhasePage.swift */; };
 		4B00000000000000000000AB /* TaskPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BB /* TaskPage.swift */; };
+		4B00000000000000000000AC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BC /* SplashViewController.swift */; };
+		4B00000000000000000000AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BD /* Assets.xcassets */; };
+		4B00000000000000000000AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		4B00000000000000000000B9 /* PlanPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanPage.swift; sourceTree = "<group>"; };
 		4B00000000000000000000BA /* PhasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhasePage.swift; sourceTree = "<group>"; };
 		4B00000000000000000000BB /* TaskPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPage.swift; sourceTree = "<group>"; };
+		4B00000000000000000000BC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4B00000000000000000000BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B00000000000000000000BE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -60,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				4B0000000000000000000001 /* AppDelegate.swift */,
+				4B00000000000000000000BC /* SplashViewController.swift */,
 				4B00000000000000000000B1 /* RootShellController.swift */,
 				4B00000000000000000000B2 /* MainStageController.swift */,
 				4B00000000000000000000B3 /* MainStage.swift */,
@@ -75,6 +82,8 @@
 				4B0000000000000000000007 /* WebViewHelper.swift */,
 				4B0000000000000000000008 /* HttpClient.swift */,
 				4B0000000000000000000009 /* ApiClient.swift */,
+				4B00000000000000000000BE /* LaunchScreen.storyboard */,
+				4B00000000000000000000BD /* Assets.xcassets */,
 				4B0000000000000000000003 /* Info.plist */,
 			);
 			path = PresetApp;
@@ -97,6 +106,7 @@
 			buildPhases = (
 				4B0000000000000000000090 /* Sources */,
 				4B0000000000000000000091 /* Frameworks */,
+				4B0000000000000000000092 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,12 +167,25 @@
 		};
 /* End PBXFrameworksBuildPhase section */
 
+/* Begin PBXResourcesBuildPhase section */
+		4B0000000000000000000092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B00000000000000000000AE /* LaunchScreen.storyboard in Resources */,
+				4B00000000000000000000AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B0000000000000000000090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4B0000000000000000000021 /* AppDelegate.swift in Sources */,
+				4B00000000000000000000AC /* SplashViewController.swift in Sources */,
 				4B00000000000000000000A1 /* RootShellController.swift in Sources */,
 				4B00000000000000000000A2 /* MainStageController.swift in Sources */,
 				4B00000000000000000000A3 /* MainStage.swift in Sources */,
