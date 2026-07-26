@@ -5,10 +5,9 @@ struct HomePage: View {
     let dependencies: MainStageDependencies
 
     @State private var statusText: String = "checking..."
-    @State private var deviceInfo: DeviceInfo = DeviceInfo(idfa: "unknown", idfv: "unknown")
-    @State private var appPackageInfo: AppPackageInfo = AppPackageInfo(
-        appName: "unknown", bundleId: "unknown", versionName: "unknown", versionCode: "unknown"
-    )
+    @State private var identityInfo: [DeviceInfoEntry] = []
+    @State private var fingerprintInfo: [DeviceInfoEntry] = []
+    @State private var appInfo: [DeviceInfoEntry] = []
     @State private var httpLoading: Bool = false
     @State private var httpResult: String = "—"
 
@@ -21,15 +20,21 @@ struct HomePage: View {
             }
 
             Section(header: Text("App")) {
-                row("Name", appPackageInfo.appName)
-                row("Bundle ID", appPackageInfo.bundleId)
-                row("Version", appPackageInfo.versionName)
-                row("Build", appPackageInfo.versionCode)
+                ForEach(appInfo, id: \.key) { entry in
+                    row(entry.label, entry.value)
+                }
             }
 
-            Section(header: Text("Device")) {
-                row("IDFA", deviceInfo.idfa)
-                row("IDFV", deviceInfo.idfv)
+            Section(header: Text("Identity")) {
+                ForEach(identityInfo, id: \.key) { entry in
+                    row(entry.label, entry.value)
+                }
+            }
+
+            Section(header: Text("Fingerprint")) {
+                ForEach(fingerprintInfo, id: \.key) { entry in
+                    row(entry.label, entry.value)
+                }
             }
 
             Section(header: Text("HTTP")) {
@@ -44,8 +49,9 @@ struct HomePage: View {
         .listStyle(GroupedListStyle())
         .onAppear {
             updateStatus()
-            updateDeviceInfo()
-            updateAppPackageInfo()
+            updateIdentityInfo()
+            updateFingerprintInfo()
+            updateAppInfo()
             dependencies.connectivityHelper.helper.registerCallback { _ in
                 updateStatus()
             }
@@ -72,12 +78,16 @@ struct HomePage: View {
         statusText = dependencies.connectivityHelper.helper.getCurrentConnectivity().label
     }
 
-    private func updateDeviceInfo() {
-        deviceInfo = dependencies.deviceInfoHelper.helper.getCurrentDeviceInfo()
+    private func updateIdentityInfo() {
+        identityInfo = dependencies.deviceIdentityRepository.getIdentity()
     }
 
-    private func updateAppPackageInfo() {
-        appPackageInfo = dependencies.packageInfoHelper.helper.getCurrentAppPackageInfo()
+    private func updateFingerprintInfo() {
+        fingerprintInfo = dependencies.deviceInfoRepository.getFingerprint()
+    }
+
+    private func updateAppInfo() {
+        appInfo = dependencies.appInfoRepository.getAppInfo()
     }
 
     private func sendHttpPost() {

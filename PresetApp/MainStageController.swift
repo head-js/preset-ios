@@ -6,14 +6,6 @@ final class ConnectivityHelperBox {
     let helper = ConnectivityHelper()
 }
 
-final class DeviceInfoHelperBox {
-    let helper = DeviceInfoHelper()
-}
-
-final class PackageInfoHelperBox {
-    let helper = PackageInfoHelper()
-}
-
 final class WebViewHelperBox {
     let helper = WebViewHelper()
     var hasLoadedInitialURL = false
@@ -21,8 +13,9 @@ final class WebViewHelperBox {
 
 final class MainStageDependencies {
     let connectivityHelper = ConnectivityHelperBox()
-    let deviceInfoHelper = DeviceInfoHelperBox()
-    let packageInfoHelper = PackageInfoHelperBox()
+    let deviceIdentityRepository = DeviceIdentityRepository()
+    let deviceInfoRepository = DeviceInfoRepository()
+    let appInfoRepository = AppInfoRepository()
     let webViewHelper = WebViewHelperBox()
 }
 

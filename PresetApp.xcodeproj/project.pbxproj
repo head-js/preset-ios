@@ -10,7 +10,6 @@
 		4B0000000000000000000021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000001 /* AppDelegate.swift */; };
 		4B0000000000000000000024 /* ConnectivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000004 /* ConnectivityHelper.swift */; };
 		4B00000000000000000000C3 /* PresetDeviceInfo in Frameworks */ = {isa = PBXBuildFile; productRef = 4B00000000000000000000C2 /* PresetDeviceInfo */; };
-		4B0000000000000000000026 /* PackageInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000006 /* PackageInfoHelper.swift */; };
 		4B0000000000000000000027 /* WebViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000007 /* WebViewHelper.swift */; };
 		4B0000000000000000000028 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000008 /* HttpClient.swift */; };
 		4B0000000000000000000029 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000009 /* ApiClient.swift */; };
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		4B0000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B0000000000000000000004 /* ConnectivityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityHelper.swift; sourceTree = "<group>"; };
-		4B0000000000000000000006 /* PackageInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageInfoHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000007 /* WebViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000008 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		4B0000000000000000000009 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				4B00000000000000000000BA /* PhasePage.swift */,
 				4B00000000000000000000BB /* TaskPage.swift */,
 				4B0000000000000000000004 /* ConnectivityHelper.swift */,
-				4B0000000000000000000006 /* PackageInfoHelper.swift */,
 				4B0000000000000000000007 /* WebViewHelper.swift */,
 				4B0000000000000000000008 /* HttpClient.swift */,
 				4B0000000000000000000009 /* ApiClient.swift */,
@@ -178,7 +175,6 @@
 				4B00000000000000000000AA /* PhasePage.swift in Sources */,
 				4B00000000000000000000AB /* TaskPage.swift in Sources */,
 				4B0000000000000000000024 /* ConnectivityHelper.swift in Sources */,
-				4B0000000000000000000026 /* PackageInfoHelper.swift in Sources */,
 				4B0000000000000000000027 /* WebViewHelper.swift in Sources */,
 				4B0000000000000000000028 /* HttpClient.swift in Sources */,
 				4B0000000000000000000029 /* ApiClient.swift in Sources */,
