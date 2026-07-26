@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:PresetIOS.xcodeproj">
+      location = "group:PresetApp.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:PresetDeviceInfo">

@@ -8,7 +8,7 @@ import UIKit
 ///   iOS 13 运行时在本机不可达，故以 iOS 14.5 作为最接近部署目标的验证运行时。
 /// - 编译：必须用 Xcode 12.5.1 命令行工具链（GUI 不可用）：
 ///   DEVELOPER_DIR=/Applications/Xcode12.app/Contents/Developer \
-///     xcodebuild -project PresetIOS.xcodeproj -scheme PresetIOS \
+///     xcodebuild -project PresetApp.xcodeproj -scheme PresetApp \
 ///     -destination 'platform=iOS Simulator,id=<iPhone12-UDID>' build
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

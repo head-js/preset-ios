@@ -1,7 +1,7 @@
 import Foundation
 import os.log
 
-private let httpClientLog = OSLog(subsystem: "com.lisitede.preset.ios", category: "HttpClient")
+private let httpClientLog = OSLog(subsystem: "com.lisitede.preset.app", category: "HttpClient")
 
 enum HTTPMethod: String {
     case get = "GET"
