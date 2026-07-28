@@ -31,6 +31,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func showMain() {
-        window?.rootViewController = RootShellController()
+        window?.rootViewController = RootShell()
     }
 }

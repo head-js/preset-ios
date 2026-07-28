@@ -1,27 +1,47 @@
-import SwiftUI
+import UIKit
 
-struct PlanStage: View {
-    enum Page {
+final class PlanStage: UITabBarController {
+    private enum PageIndex: Int {
         case plan
         case phase
         case task
     }
 
-    @State private var activePage: Page = .plan
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
-    var body: some View {
-        VStack(spacing: 16) {
-            switch activePage {
-            case .plan:
-                PlanPage(
-                    onGotoPhase: { activePage = .phase },
-                    onGotoTask: { activePage = .task }
-                )
-            case .phase:
-                PhasePage(onGotoPlan: { activePage = .plan })
-            case .task:
-                TaskPage(onGotoPlan: { activePage = .plan })
+        tabBar.isHidden = true
+        viewControllers = makePageControllers()
+        show(.plan)
+    }
+
+    private func makePageControllers() -> [UIViewController] {
+        let planPage = PlanPage(
+            onGotoPhase: { [weak self] in
+                self?.show(.phase)
+            },
+            onGotoTask: { [weak self] in
+                self?.show(.task)
             }
+        )
+
+        let phasePage = PhasePage { [weak self] in
+            self?.show(.plan)
         }
+
+        let taskPage = TaskPage { [weak self] in
+            self?.show(.plan)
+        }
+
+        return [
+            planPage,
+            phasePage,
+            taskPage
+        ]
+    }
+
+    private func show(_ page: PageIndex) {
+        selectedIndex = page.rawValue
+        navigationItem.title = selectedViewController?.title
     }
 }
