@@ -9,68 +9,79 @@
 /* Begin PBXBuildFile section */
 		4B0000000000000000000021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000001 /* AppDelegate.swift */; };
 		4B0000000000000000000024 /* ConnectivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000004 /* ConnectivityHelper.swift */; };
-		4B00000000000000000000C3 /* PresetDeviceInfo in Frameworks */ = {isa = PBXBuildFile; productRef = 4B00000000000000000000C2 /* PresetDeviceInfo */; };
 		4B0000000000000000000027 /* WebViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000007 /* WebViewHelper.swift */; };
 		4B0000000000000000000028 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000008 /* HttpClient.swift */; };
 		4B0000000000000000000029 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0000000000000000000009 /* ApiClient.swift */; };
 		4B00000000000000000000A1 /* RootShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B1 /* RootShell.swift */; };
 		4B00000000000000000000A2 /* MainStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B2 /* MainStage.swift */; };
 		4B00000000000000000000A3 /* BillPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B3 /* BillPage.swift */; };
-		4B00000000000000000000C5 /* BillPage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000C4 /* BillPage+View.swift */; };
 		4B00000000000000000000A5 /* PlanStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B5 /* PlanStage.swift */; };
 		4B00000000000000000000A6 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B6 /* HomePage.swift */; };
-		4B00000000000000000000C8 /* HomePage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000C7 /* HomePage+View.swift */; };
 		4B00000000000000000000A7 /* WebViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B7 /* WebViewPage.swift */; };
 		4B00000000000000000000A8 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B8 /* ProfilePage.swift */; };
-		4B00000000000000000000CA /* ProfilePage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000CB /* ProfilePage+View.swift */; };
 		4B00000000000000000000A9 /* PlanPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000B9 /* PlanPage.swift */; };
-		4B00000000000000000000CD /* PlanPage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000CE /* PlanPage+View.swift */; };
 		4B00000000000000000000AA /* PhasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BA /* PhasePage.swift */; };
-		4B00000000000000000000D0 /* PhasePage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000D1 /* PhasePage+View.swift */; };
 		4B00000000000000000000AB /* TaskPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BB /* TaskPage.swift */; };
-		4B00000000000000000000D3 /* TaskPage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000D4 /* TaskPage+View.swift */; };
 		4B00000000000000000000AC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BC /* SplashViewController.swift */; };
 		4B00000000000000000000AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BD /* Assets.xcassets */; };
 		4B00000000000000000000AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BE /* LaunchScreen.storyboard */; };
 		4B00000000000000000000AF /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000BF /* LoginPage.swift */; };
-		4B00000000000000000000D7 /* LoginPage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000D6 /* LoginPage+View.swift */; };
 		4B00000000000000000000B0 /* TokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000C0 /* TokenStorage.swift */; };
+		4B00000000000000000000C3 /* PresetDeviceInfo in Frameworks */ = {isa = PBXBuildFile; productRef = 4B00000000000000000000C2 /* PresetDeviceInfo */; };
+		4B00000000000000000000C5 /* BillPage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000C4 /* BillPage+View.swift */; };
+		4B00000000000000000000C8 /* HomePage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000C7 /* HomePage+View.swift */; };
+		4B00000000000000000000CA /* ProfilePage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000CB /* ProfilePage+View.swift */; };
+		4B00000000000000000000CD /* PlanPage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000CE /* PlanPage+View.swift */; };
+		4B00000000000000000000D0 /* PhasePage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000D1 /* PhasePage+View.swift */; };
+		4B00000000000000000000D3 /* TaskPage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000D4 /* TaskPage+View.swift */; };
+		4B00000000000000000000D7 /* LoginPage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00000000000000000000D6 /* LoginPage+View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B0000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B0000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B0000000000000000000004 /* ConnectivityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000007 /* WebViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewHelper.swift; sourceTree = "<group>"; };
 		4B0000000000000000000008 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		4B0000000000000000000009 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
-		4B0000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B0000000000000000000010 /* PresetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B00000000000000000000B1 /* RootShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootShell.swift; sourceTree = "<group>"; };
 		4B00000000000000000000B2 /* MainStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStage.swift; sourceTree = "<group>"; };
 		4B00000000000000000000B3 /* BillPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPage.swift; sourceTree = "<group>"; };
-		4B00000000000000000000C4 /* BillPage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BillPage+View.swift"; sourceTree = "<group>"; };
 		4B00000000000000000000B5 /* PlanStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanStage.swift; sourceTree = "<group>"; };
 		4B00000000000000000000B6 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
-		4B00000000000000000000C7 /* HomePage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomePage+View.swift"; sourceTree = "<group>"; };
 		4B00000000000000000000B7 /* WebViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPage.swift; sourceTree = "<group>"; };
 		4B00000000000000000000B8 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
-		4B00000000000000000000CB /* ProfilePage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfilePage+View.swift"; sourceTree = "<group>"; };
 		4B00000000000000000000B9 /* PlanPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanPage.swift; sourceTree = "<group>"; };
-		4B00000000000000000000CE /* PlanPage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlanPage+View.swift"; sourceTree = "<group>"; };
 		4B00000000000000000000BA /* PhasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhasePage.swift; sourceTree = "<group>"; };
-		4B00000000000000000000D1 /* PhasePage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhasePage+View.swift"; sourceTree = "<group>"; };
 		4B00000000000000000000BB /* TaskPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPage.swift; sourceTree = "<group>"; };
-		4B00000000000000000000D4 /* TaskPage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskPage+View.swift"; sourceTree = "<group>"; };
 		4B00000000000000000000BC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		4B00000000000000000000BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B00000000000000000000BE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B00000000000000000000BF /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
-		4B00000000000000000000D6 /* LoginPage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginPage+View.swift"; sourceTree = "<group>"; };
 		4B00000000000000000000C0 /* TokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStorage.swift; sourceTree = "<group>"; };
+		4B00000000000000000000C4 /* BillPage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BillPage+View.swift"; sourceTree = "<group>"; };
+		4B00000000000000000000C7 /* HomePage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomePage+View.swift"; sourceTree = "<group>"; };
+		4B00000000000000000000CB /* ProfilePage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfilePage+View.swift"; sourceTree = "<group>"; };
+		4B00000000000000000000CE /* PlanPage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlanPage+View.swift"; sourceTree = "<group>"; };
+		4B00000000000000000000D1 /* PhasePage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhasePage+View.swift"; sourceTree = "<group>"; };
+		4B00000000000000000000D4 /* TaskPage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskPage+View.swift"; sourceTree = "<group>"; };
+		4B00000000000000000000D6 /* LoginPage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginPage+View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		4B0000000000000000000091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B00000000000000000000C3 /* PresetDeviceInfo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		4B0000000000000000000030 /* Root */ = {
+		4B0000000000000000000030 = {
 			isa = PBXGroup;
 			children = (
 				4B0000000000000000000031 /* PresetApp */,
@@ -106,6 +117,14 @@
 			path = PresetApp;
 			sourceTree = "<group>";
 		};
+		4B0000000000000000000032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B0000000000000000000010 /* PresetApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4B00000000000000000000C6 /* BillPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,15 +150,6 @@
 				4B00000000000000000000CB /* ProfilePage+View.swift */,
 			);
 			path = ProfilePage;
-			sourceTree = "<group>";
-		};
-		4B00000000000000000000D8 /* LoginPage */ = {
-			isa = PBXGroup;
-			children = (
-				4B00000000000000000000BF /* LoginPage.swift */,
-				4B00000000000000000000D6 /* LoginPage+View.swift */,
-			);
-			path = LoginPage;
 			sourceTree = "<group>";
 		};
 		4B00000000000000000000CF /* PlanPage */ = {
@@ -169,12 +179,13 @@
 			path = TaskPage;
 			sourceTree = "<group>";
 		};
-		4B0000000000000000000032 /* Products */ = {
+		4B00000000000000000000D8 /* LoginPage */ = {
 			isa = PBXGroup;
 			children = (
-				4B0000000000000000000010 /* PresetApp.app */,
+				4B00000000000000000000BF /* LoginPage.swift */,
+				4B00000000000000000000D6 /* LoginPage+View.swift */,
 			);
-			name = Products;
+			path = LoginPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +219,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					4B0000000000000000000040 = {
 						CreatedOnToolsVersion = 1500;
@@ -223,29 +234,15 @@
 				en,
 				Base,
 			);
-			mainGroup = 4B0000000000000000000030 /* Root */;
+			mainGroup = 4B0000000000000000000030;
 			productRefGroup = 4B0000000000000000000032 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
-			packages = (
-				4B00000000000000000000C1 /* XCLocalSwiftPackageReference "PresetDeviceInfo" */,
-			);
 			targets = (
 				4B0000000000000000000040 /* PresetApp */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		4B0000000000000000000091 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B00000000000000000000C3 /* PresetDeviceInfo in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4B0000000000000000000092 /* Resources */ = {
@@ -351,11 +348,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = F9S562PLSY;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = PresetApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
@@ -369,6 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lisitede.preset.app;
 				PRODUCT_BUNDLE_PACKAGE_TYPE = APPL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,11 +377,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = F9S562PLSY;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = PresetApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
@@ -397,6 +395,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lisitede.preset.app;
 				PRODUCT_BUNDLE_PACKAGE_TYPE = APPL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -427,13 +426,19 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		4B00000000000000000000C1 /* XCLocalSwiftPackageReference "PresetDeviceInfo" */ = {isa = XCLocalSwiftPackageReference; relativePath = PresetDeviceInfo; };
+		4B00000000000000000000C1 /* XCLocalSwiftPackageReference "PresetDeviceInfo" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = PresetDeviceInfo;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4B00000000000000000000C2 /* PresetDeviceInfo */ = {isa = XCSwiftPackageProductDependency; package = 4B00000000000000000000C1 /* XCLocalSwiftPackageReference "PresetDeviceInfo" */; productName = PresetDeviceInfo; };
+		4B00000000000000000000C2 /* PresetDeviceInfo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B00000000000000000000C1 /* XCLocalSwiftPackageReference "PresetDeviceInfo" */;
+			productName = PresetDeviceInfo;
+		};
 /* End XCSwiftPackageProductDependency section */
-
 	};
 	rootObject = 4B0000000000000000000050 /* Project object */;
 }
