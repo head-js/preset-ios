@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "PresetDeviceInfo",
-    platforms: [.iOS(.v14)],
+    platforms: [.iOS("15.5")],
     products: [
         .library(name: "PresetDeviceInfo", targets: ["PresetDeviceInfo"]),
     ],
